@@ -1,0 +1,11 @@
+id = "notist"
+name = "Notist"
+description = "Notist language support with syntax highlighting and embedded raw-language injection."
+version = "0.1.0"
+schema_version = 1
+authors = ["Notist contributors"]
+repository = "https://github.com/notist-lang/zed-notist"
+
+[grammars.notist]
+repository = "git://127.0.0.1:9418/tree-sitter-notist"
+rev = "a35ab9698431d095b47bbaa9141923af6f3b44c7"

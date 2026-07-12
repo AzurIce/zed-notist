@@ -1,0 +1,4 @@
+grammars/
+extension.wasm
+target/
+.zed-extension-build/
