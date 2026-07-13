@@ -1,10 +1,14 @@
 id = "notist"
 name = "Notist"
-description = "Notist language support with syntax highlighting and embedded raw-language injection."
-version = "0.1.0"
+description = "Notist language support with syntax highlighting, diagnostics, completion, and navigation."
+version = "0.2.0"
 schema_version = 1
 authors = ["Notist contributors"]
 repository = "https://github.com/notist-lang/zed-notist"
+
+[language_servers.notist]
+name = "Notist Language Server"
+languages = ["Notist"]
 
 [grammars.notist]
 repository = "git://127.0.0.1:9418/tree-sitter-notist"
