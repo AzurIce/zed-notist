@@ -4,12 +4,12 @@ description = "Notist language support with syntax highlighting, diagnostics, co
 version = "0.2.0"
 schema_version = 1
 authors = ["Notist contributors"]
-repository = "https://github.com/notist-lang/zed-notist"
+repository = "https://github.com/AzurIce/zed-notist"
 
 [language_servers.notist]
 name = "Notist Language Server"
 languages = ["Notist"]
 
 [grammars.notist]
-repository = "git://127.0.0.1:9418/tree-sitter-notist"
-rev = "a35ab9698431d095b47bbaa9141923af6f3b44c7"
+repository = "https://github.com/AzurIce/tree-sitter-notist"
+rev = "f4334efca5327bf2859d1c38667a425b143098d7"

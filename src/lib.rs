@@ -13,7 +13,7 @@ impl zed::Extension for NotistExtension {
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
         let command = worktree.which("notist").ok_or_else(|| {
-            "the Notist executable was not found in PATH; install or build Notist before starting its language server".to_owned()
+            "the Notist executable was not found in PATH; install it from https://github.com/AzurIce/Notist and restart Zed".to_owned()
         })?;
         Ok(zed::Command {
             command,
