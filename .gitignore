@@ -1,3 +1,4 @@
+.direnv/
 grammars/
 extension.wasm
 target/
