@@ -1,11 +1,10 @@
 name = "Notist"
 grammar = "notist"
-path_suffixes = ["not"]
+path_suffixes = ["not", "notc"]
 tab_size = 2
 autoclose_before = ";:.,=}])>!"
 brackets = [
   { start = "[", end = "]", close = true, newline = true },
   { start = "(", end = ")", close = true, newline = false },
   { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
-  { start = "`", end = "`", close = true, newline = false, not_in = ["string"] },
 ]
