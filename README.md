@@ -20,6 +20,6 @@ cargo install --locked --git https://github.com/AzurIce/Notist.git notist-cli
 
 Install this extension locally from Zed's Extensions page with **Install Dev Extension**, then select this directory.
 
-The Tree-sitter grammar is pinned to a published revision of [AzurIce/tree-sitter-notist](https://github.com/AzurIce/tree-sitter-notist). When bumping the pin, commit and push the grammar first, then sync `languages/notist/*.scm` from the grammar's `queries/` directory.
+The Tree-sitter grammar is pinned to a published revision of [AzurIce/tree-sitter-notist](https://github.com/AzurIce/tree-sitter-notist). The current pin includes annotation, raw, math, list-marker, comment, and automatic-link tokens. When bumping the pin, commit and push the grammar first, then sync `languages/notist/*.scm` from the grammar's `queries/` directory.
 
 Each package uses a `Notist.toml` with its package name, source directory, and entry module. The language server discovers packages beneath the opened worktree and shares analysis for path dependencies. Files outside packages still receive standalone syntax analysis.
