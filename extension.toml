@@ -12,4 +12,4 @@ languages = ["Notist"]
 
 [grammars.notist]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "1f8d426401c273997da61dfe475b47ec6677c416"
+rev = "4436c7d"
