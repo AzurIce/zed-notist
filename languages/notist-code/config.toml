@@ -1,6 +1,6 @@
-name = "Notist"
-grammar = "notist"
-path_suffixes = ["not"]
+name = "Notist Code"
+grammar = "notist_code"
+path_suffixes = ["notc"]
 tab_size = 2
 autoclose_before = ";:.,=}])>!"
 brackets = [

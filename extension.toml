@@ -8,8 +8,17 @@ repository = "https://github.com/AzurIce/zed-notist"
 
 [language_servers.notist]
 name = "Notist Language Server"
-languages = ["Notist"]
+languages = ["Notist", "Notist Code"]
+
+[language_servers.notist.language_ids]
+Notist = "notist"
+"Notist Code" = "notist-code"
 
 [grammars.notist]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "d5d807e01ed1bf29d3181f5891f299802a691ed7"
+rev = "52eca3570ede1a9d198628a17fc2f2e7018106c4"
+
+[grammars.notist_code]
+repository = "https://github.com/AzurIce/tree-sitter-notist"
+rev = "52eca3570ede1a9d198628a17fc2f2e7018106c4"
+path = "notist-code"
