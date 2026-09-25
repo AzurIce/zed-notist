@@ -16,9 +16,9 @@ Notist = "notist"
 
 [grammars.notist]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "e7fb934ca2eec47d473448cd74f247332afca3e8"
+rev = "0d0d927d5c54f3432bf35ac848c7cb9b336205ce"
 
 [grammars.notist_code]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "e7fb934ca2eec47d473448cd74f247332afca3e8"
+rev = "0d0d927d5c54f3432bf35ac848c7cb9b336205ce"
 path = "notist-code"
