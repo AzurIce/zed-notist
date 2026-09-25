@@ -3,7 +3,7 @@ name = "Notist"
 description = "Notist language support with syntax highlighting, diagnostics, completion, and navigation."
 version = "0.1.0"
 schema_version = 1
-authors = ["Notist contributors"]
+authors = ["AzurIce"]
 repository = "https://github.com/AzurIce/zed-notist"
 
 [language_servers.notist]
@@ -16,9 +16,9 @@ Notist = "notist"
 
 [grammars.notist]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "a6a6b14d67de8a6d1db190a83d5ec93ed8bba3b4"
+rev = "e7fb934ca2eec47d473448cd74f247332afca3e8"
 
 [grammars.notist_code]
 repository = "https://github.com/AzurIce/tree-sitter-notist"
-rev = "a6a6b14d67de8a6d1db190a83d5ec93ed8bba3b4"
+rev = "e7fb934ca2eec47d473448cd74f247332afca3e8"
 path = "notist-code"
